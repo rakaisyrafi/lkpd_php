@@ -79,7 +79,7 @@
         ?>
     </ul>
 
-    <h2>Oleh</h2>
+    <h2>Dibuat Oleh</h2>
     <p><strong>Nama:</strong> Zakaria Akmal & Raka Isyrafi</p>
     <h3>Analisis Jadwal:</h3>
     <p>Jadwal Andi dibuat agar tidak ada bentrokan antara kegiatan utama, seperti tugas sekolah dan persiapan festival.</p>
