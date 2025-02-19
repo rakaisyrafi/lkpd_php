@@ -1,0 +1,40 @@
+CASE 1
+
+Jika nilai di luar rentang 0-100, maka ditampilkan peringatan.
+Jika nilai >= 90, maka ditampilkan nilai A.
+Jika nilai >= 80, maka ditampilkan nilai B.
+Jika nilai >= 70, maka ditampilkan nilai C.
+Jika kurang dari 70, maka ditampilkan nilai D.
+
+CASE 2
+Percabangan digunakan untuk menentukan bagian waktu dalam sehari:
+Dunia lain jika waktu tidak valid.
+Dini hari untuk waktu 00:00 - 03:59.
+Pagi untuk waktu 04:00 - 09:59.
+Siang untuk waktu 10:00 - 14:59.
+Sore untuk waktu 15:00 - 17:30.
+Petang untuk waktu 17:30 - 18:30.
+Malam untuk waktu 18:30 - 23:59.
+
+CASE 3
+Untuk menentukan aktivitas berdasarkan rentang waktu.
+15:45 - 16:00 → Mandi
+16:00 - 16:30 → Mengaji
+16:30 - 18:30 → Mengerjakan tugas sekolah
+18:30 - 19:00 → Menghafal dialog
+19:00 - 19:30 → Membeli bumbu
+19:30 - 20:00 → Makan malam
+17:00 - 17:30 → Chatting dengan Raya
+20:00 - 20:30 → Mengobrol keluarga
+22:00 - 04:00 → Tidur
+Jika tidak termasuk rentang di atas → Tidak ada aktivitas terjadwal.
+
+KESIMPULAN
+Percabangan if-elseif-else digunakan dalam tiga skenario utama:
+Konversi Nilai: Menentukan nilai huruf berdasarkan angka.
+Waktu Hari: Menentukan bagian waktu dalam sehari berdasarkan jam.
+Jadwal Harian Andi: Mengecek aktivitas berdasarkan waktu dalam format total menit.
+Teknik yang digunakan:
+isset($_POST['input']) untuk memeriksa apakah input telah diberikan.
+explode(":", $_POST['waktu']) untuk memisahkan jam dan menit.
+Menggunakan rentang nilai dalam percabangan untuk menentukan hasil.
