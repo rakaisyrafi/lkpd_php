@@ -1,0 +1,27 @@
+Kesimpulan dari Skenario Keempat
+
+1. Kasus 1:
+
+Memahami penggunaan array dan berbagai jenis perulangan 
+(for, foreach, while, do-while) untuk menampilkan data dengan format yang sudah ditentukan.
+
+
+
+2. Kasus 2:
+
+Menggunakan perulangan for untuk menampilkan lagu 
+"Anak Ayam Turun" dengan pola pengurangan angka hingga hanya induknya yang tersisa.
+
+
+
+3. Kasus 3:
+
+Memahami penggunaan loop dan array untuk menyimpan serta 
+menampilkan daftar mawar yang dimiliki dan diberikan.
+
+
+
+4. Kasus 4:
+
+Menggunakan array dalam array dan perulangan tanpa percabangan 
+untuk mencetak daftar lagu sesuai suasana hati.
