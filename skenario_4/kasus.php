@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- ================= KASUS 1 ========================= -->
     <div class="container">
     <h2 class="team">Kasus 1</h2>
 
@@ -52,6 +54,8 @@
 
     </div>
 
+    <!-- ================= KASUS 2 ========================= -->
+
     <div class="container">
     <h2 class="team">Kasus 2</h2>
 
@@ -66,6 +70,8 @@
         ?>
 
     </div>
+
+    <!-- ================= KASUS 3 ========================= -->
 
     <div class="container">
     <h2 class="team">Kasus 3</h2>
@@ -90,6 +96,8 @@
 
     </div>
 
+    <!-- ================= KASUS 4 ========================= -->
+
     <div class="container">
     <h2 class="team">Kasus 4</h2>
 
@@ -107,6 +115,8 @@
     ?>
 
     </div>
+
+    
 
     <div class="container">
         <h2 class="team">Apa Yg Saya Pelajari?</h2>

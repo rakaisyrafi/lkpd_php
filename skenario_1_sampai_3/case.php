@@ -151,46 +151,5 @@ $anggota2 = "Raka Isyrafi";
     </ol>
 </div>
 
-<!-- ======================== CASE 4: ARRAY DAN PENGULANGAN =================================== -->
-<!-- KASUS 1 -->
-<div class ="container">
-    <h2>Case 4 : Kasus 1</h2>
-<?php
-
-$hari = [
-"minggu","senin", "selasa", "rabu", "kamis", "jumat", "sabtu"
-];
-$bulan = ["january", "februari", "maret", "april", "mei", "juni", "juli", "agsts", "sept", "okt", 
-"nov", "desember"];
-$tanggal = range(1,31);
-$tahun = ["2024", "2025", "2026"];
-
-
-$jadwalhari = $hari[1];
-$jadwaltanggal = $tanggal[9];
-$jadwalbulan = $bulan[2];
-$jadwaltahun = $tahun[1];
-
-echo "$jadwalhari, $jadwaltanggal - $jadwalbulan - $jadwaltahun";
-
-?>
-</div>
-
-<div class="container">
-        <h2>Kasus 2</h2>
-        <?php 
-        $jumlahanakayam = 30;
-
-        for($i = $jumlahanakayam; $i > 0; $i--) {
-            if($i > 1 ){
-                echo "<p>Anak ayam turun $i, mati satu tinggal " . 
-                ($i - 1). "</p>";
-            } else {
-                echo "<p>Anak ayam turun 1, mati satu tinggal induknya</p>";
-            };
-        };
-        ?>
-    </div>
-
 </body>
 </html>
