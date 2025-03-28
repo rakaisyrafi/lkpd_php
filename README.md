@@ -1,6 +1,6 @@
 # Project Title
 
-LKPD PHP 
+LKPD Pemrograman PHP
 
 
 ## Authors
